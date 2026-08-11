@@ -3,8 +3,8 @@
 function ProfileCard(props) {
 
     return (
-        <div>
-            <img  src= {props.user.avatar_url} alt="" />
+        <div className="card">
+            <img className="avatar" src= {props.user.avatar_url} alt="" />
             <p>{props.user.name}</p>
 <p>{props.user.bio}</p>
 <p>Followers: {props.user.followers}</p>

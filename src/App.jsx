@@ -13,7 +13,7 @@ function App() {
     const data = await response.json()
     setUser(data)
   }
-  return( <div>
+  return( <div className="container">
     <SearchBar onSearch={getData} />
     {user && <ProfileCard user={user}/>}
 
