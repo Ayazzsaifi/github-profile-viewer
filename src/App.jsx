@@ -13,7 +13,9 @@ function App() {
     const data = await response.json()
     setUser(data)
   }
-  return( <div className="container">
+  return(
+     <div className="container"> 
+     <h1 className='title'>GitHub Profile Viewer </h1> 
     <SearchBar onSearch={getData} />
     {user && <ProfileCard user={user}/>}
 

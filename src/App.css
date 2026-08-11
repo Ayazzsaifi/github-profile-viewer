@@ -46,5 +46,10 @@ body{
   align-items: center;
   justify-content: center;
   margin-bottom: 50px;
-
 }
+
+.title{
+  color: #e6edf3;
+  margin-bottom: 50px;
+}
+
